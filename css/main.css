@@ -1,0 +1,187 @@
+.main .contop .topicon1{
+	background: url(../images/topicon1.png) 0 0 no-repeat;
+}
+.main .contop .topicon2{
+	background: url(../images/topicon3.png) 0 0 no-repeat;
+}
+.main{
+	width:640px;
+	height:1096px;
+	position:absolute;
+	top:0;
+	left:0px;
+	z-index:10;
+	background-color: #fff;
+	transition:all 0.4s ease-out;
+}
+
+/*大图滚动*/
+.main .dtScrollout img{
+	height:332px;
+}
+.main .dtScroll .swiper-pagination{
+	width:105px!important;
+	bottom: 13px!important;
+	left: 516px!important;
+}
+.main .dtScroll  .swiper-pagination-bullet {
+    width: 14px;
+    height: 14px;
+    margin: 0 6px!important;
+}
+/* .main .dtScroll  .swiper-pagination-bullet-active{
+	opacity: 1;
+    background: #007aff;
+} */
+/*导航*/
+.main .nav{
+	width:615px;
+	height: 342px;
+	overflow: hidden;
+	margin:13px 13px 0 12px;
+}
+.main .nav a{
+	display: block;
+	font-size: 24px;
+	color:#fff;
+	text-align: center;
+	text-indent: 1.5em;
+}
+.main .nav a:nth-child(1){
+	float:left;
+	width:303px;
+	padding-top:88px;
+	height:135px;
+	line-height: 135px;
+	text-indent: 0;
+	margin-bottom:9px;
+	background: #7dcc00 url(../images/campusNews_logo2.png) 107px 54px no-repeat;
+}
+.main .nav a:nth-child(2){
+	float:right;
+	width:303px;
+	height:109px;
+	line-height: 109px;
+	margin-bottom:5px;
+	background: #00cabe url(../images/eduTrains_logo2.png) 14px 26px no-repeat;
+}
+.main .nav a:nth-child(3){
+	float:right;
+	width:303px;
+	height:108px;
+	line-height: 108px;
+	margin-bottom:10px;
+	background: #e89e1b url(../images/miniCircle_logo2.png) 21px 19px no-repeat;
+}
+.main .nav a:nth-child(4){
+	float:left;
+	width:303px;
+	height:109px;
+	line-height: 109px;
+	background: #3f95ea url(../images/fleaMarket_logo2.png) 19px 21px no-repeat;
+}
+.main .nav a:nth-child(5){
+	float:right;
+	width:303px;
+	height:109px;
+	line-height: 109px;
+	background: #51db61 url(../images/ptJob_logo2.png) 27px 26px no-repeat;
+}
+
+/*===============个人信息============*/
+.broadside a{
+	color:#fff;
+}
+.broadside{
+	width:580px!important;
+	height:100%;
+	background: #f1f1f1;
+}
+.broadside .contop{
+	height:82px;
+}
+.broadside .topicon1{
+	background: url(../images/topicon2.png) 0 0 no-repeat;
+}
+.broadside>p{
+	width:570px;
+	height:2px;
+	background:linear-gradient(to right,#bfd1e9 0%,#8babd7 50%,#7399ca 100%);
+}
+.broadside .bbanner{
+	height:199px;
+	line-height: 199px;
+	border-bottom:1px solid #fff;
+	background: rgb(38,55,101);
+	background: -moz-linear-gradient(-45deg,  rgba(38,55,101,1) 0%, rgba(152,144,155,1) 50%, rgba(197,169,157,1) 100%);
+	background: -webkit-linear-gradient(-45deg,  rgba(38,55,101,1) 0%,rgba(152,144,155,1) 50%,rgba(197,169,157,1) 100%);
+	background: linear-gradient(135deg,  rgba(38,55,101,1) 0%,rgba(152,144,155,1) 50%,rgba(197,169,157,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#263765', endColorstr='#c5a99d',GradientType=1 );
+}
+.bbanner a:nth-child(1){
+	margin-left:24px;
+}
+.bbanner a:nth-child(1) img{
+	display:inline-block;
+	width:115px;
+	height: 115px;
+	vertical-align: middle;
+}
+.bbanner a:nth-child(2){
+	font-size: 30px;
+	margin-left:31px;
+}
+.broadside>ul{
+	margin-top:14px;
+}
+.broadside>ul li{
+	background: #fff;
+}
+.broadside>ul li a{
+	display: block;
+	height: 100px;
+	line-height: 100px;
+	font-size: 30px;
+	color:#333;
+	text-indent: 2.4em;
+	margin-left: 66px;
+	border-top:1px solid #fafafa;
+	border-bottom:2px solid #e8e8e8;
+	overflow: visible;
+}
+.broadside>ul li a span{
+	font-size: 32px;
+	color:#e1e1e1;
+	float: right;
+	margin-right:32px;
+}
+.broadside>ul li:nth-child(1){
+	background:#fff url(../images/campusNews.png) 48px center no-repeat;
+}
+.broadside>ul li:nth-child(2){
+	background:#fff url(../images/eduTrains.png) 48px center no-repeat;
+}
+.broadside>ul li:nth-child(3){
+	background:#fff url(../images/miniCircle_logo.png) 48px center no-repeat;
+}
+.broadside>ul li:nth-child(4){
+	background:#fff url(../images/fleaMarket_logo.png) 48px center no-repeat;
+}
+.broadside>ul li:nth-child(5){
+	background:#fff url(../images/ptJob_logo.png) 48px center no-repeat;
+}
+.broadside>ul li:nth-child(6){
+	margin-top:20px;
+	background:#fff url(../images/ownCenter.png) 48px center no-repeat;
+}
+
+
+.broadside>ul li:nth-child(1) a{
+	border-top:none;
+}
+.broadside>ul li:nth-child(5) a{
+	border-bottom:none;
+}
+.broadside>ul li:nth-child(6) a{
+	border:none;
+}
